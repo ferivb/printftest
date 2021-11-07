@@ -5,11 +5,11 @@
   */
 int get_funk(const char *format, print_s spec[], va_list info)
 {
-	int i, j, result/*, final_print*/;
+	int i, j, result, final_print;
 
 	final_print = 0;
 	/*Check every char of format*/
-	for (i = 0; fortmat[i] != '\0'; i++)
+	for (i = 0; format[i] != '\0'; i++)
 	{
 		/*Searches for '%'*/
 		if (format[i] == '%')
@@ -18,14 +18,14 @@ int get_funk(const char *format, print_s spec[], va_list info)
 			for (j = 0; spec[j].name != NULL; j++)
 			{
 				/*Compares the char next to '%' with the specs*/
-				if (format[i + 1] == spec[j].name/*[0]*/)
+				if (format[i + 1] == spec[j].name[0])
 				{
 					result = spec[j].f(info);
 					if (result == -1)
 					{
 						return (-1);
 					}
-					final_print += result
+					final_print += result;
 					break;
 				}
 			}
@@ -34,7 +34,7 @@ int get_funk(const char *format, print_s spec[], va_list info)
 		else
 		{
 			/*print string if no '%' was input*/
-			_write(format[i];
+			_write(format[i]);
 			final_print++;
 		}
 	}

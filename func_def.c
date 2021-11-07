@@ -21,15 +21,15 @@ int format_char(va_list c)
 int format_string(va_list s)
 {
 	int i = 0;
-	char *s;
+	char *sm;
 
-	s = (va_arg(s, char*))
+	sm = va_arg(s, char*);
 
-	if (s == NULL)
-		s = "(null)";
-	for (; s[i] != '\0'; i++)
+	if (sm == NULL)
+		sm = "(null)";
+	for (; sm[i] != '\0'; i++)
 	{
-		_write(s[i]);
+		_write(sm[i]);
 	}
 	return (i);
 }
@@ -42,7 +42,7 @@ int format_string(va_list s)
 
 int format_percent(va_list percent)
 {
-	void(percent);
+	(void)percent;
 
 	_write('%');
 	return (1);
