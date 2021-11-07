@@ -3,11 +3,17 @@
 #include <stdio.h>
 #include <stdarg.h>
 
+/**
+ * struct my_printf  - struct for the _printf function
+ * @name: the function
+ * @f: function associated
+ */
+
 typedef struct my_printf
 {
 	char *name;
 	int (*f)(va_list);
-}print_s;
+} print_s;
 
 int _printf(const char *format, ...);
 int _write(char c);
