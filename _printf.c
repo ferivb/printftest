@@ -7,7 +7,7 @@ int _printf(const char *format, ...)
 {
 	va_list list;
 
-	print_t print[] = {
+	print_s spec[] = {
 		{"c", format_char};
 		{"s", format_string};
 		{"%", format_percent};

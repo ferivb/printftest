@@ -6,8 +6,8 @@
 typedef struct my_printf
 {
 	char *name;
-	void (*f)(va_list);
-}print_t;
+	int (*f)(va_list);
+}print_s;
 
 int _printf(const char *format, ...);
 int _write(char c);
