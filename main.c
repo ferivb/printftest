@@ -22,5 +22,9 @@ int main(void)
     _printf("Percent:[%%]\n");
     printf("Percent:[%%]\n");
 
+    _printf("Decimal with d [%d]\n", 123456);
+    printf("Decimal with d [%d]\n", 123456);
+
+
     return (0);
 }
