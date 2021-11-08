@@ -35,7 +35,7 @@ int format_string(va_list s)
 }
 
 /**
- * format_percent - Prints a porcent
+ * format_percent - Prints a percent
  * @percent: List of arguments
  * Return: the string
  */
@@ -49,14 +49,16 @@ int format_percent(va_list percent)
 }
 
 /**
-  * format_decimal - prints decimal and ints
-  * @num: number provided
-  * Return: amount of chars added
+  * format_decimal - prints decimal and intergets
+  * @num: number provided by format specifier
+  * Return: amount of characters added
   */
 int format_decimal(va_list num)
 {
-	int final_print;
+	int i = 0;
+	int final_print = 0;
 
-	final_print= _writenum(num);
+	i = va_arg(num, int);
+	final_print = _writenum(i);
 	return (final_print);
 }
