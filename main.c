@@ -16,15 +16,17 @@ int main(void)
     _printf("Character:[%c]\n", 'H');
     printf("Character:[%c]\n", 'H');
 
-    _printf("String:[%s]\n", "I am a string !");
-    printf("String:[%s]\n", "I am a string !");
+    _printf("String:[%s]\n", "1234");
+    printf("String:[%s]\n", "1234");
 
     _printf("Percent:[%%]\n");
     printf("Percent:[%%]\n");
 
-    _printf("Decimal with d [%d]\n", 123456);
-    printf("Decimal with d [%d]\n", 123456);
+    _printf("Number with d:[%d]\n", 1234);
+    printf("Number with d:[%d]\n", 1234);
 
-
+     _printf("Number with i:[%i]\n", 1234);
+    printf("Number with i:[%i]\n", 1234);
+   
     return (0);
 }

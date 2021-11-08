@@ -1,35 +1,38 @@
 #include "main.h"
-#include <stdarg.h>
 
 /**
-  * format_decimal - prints decimal and ints
-  * @num: number provided
-  * Return: amount of chars added
-  */
-int format_decimal(va_list num)
+ * _writenum - prints a number
+ * @number: Argument
+ * Return: The number of arguments
+ */
+int _writenum(va_list number)
 {
-	int i = 0, dec_chars = 0;
-	char holder[1024];
+	int i;
+	int div;
+	int final_print;
+	unsigned int num;
 
-	if (num == 0)
+	i  = va_arg(number, int);
+	div = 1;
+	final_print = 0;
+
+	if (i < 0)
 	{
-		_write('0');
-		return (dec_chars = 1);
+		final_print += _write('-');
+		num = i * -1;
 	}
-	if (num < 0)
+	else
+		num = i;
+
+	for (; num / div > 9; )
+		div *= 10;
+
+	for (; div != 0; )
 	{
-		_write('-');
-		dec_chars += 1;
-		num = num * -1;
+		final_print += _write(48 + num / div);
+		num %= div;
+		div /= 10;
 	}
-	for (; num >= 1; dec_chars++, i++)
-	{
-		holder[i] = ((num % 10) + 48);
-		num = num / 10;
-	}
-	for (i = i - 1; i > -1; i--)
-	{
-		_write(holder[i]);
-	}
-	return (dec_chars);
+
+	return (final_print);
 }
