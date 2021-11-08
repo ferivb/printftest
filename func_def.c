@@ -61,13 +61,13 @@ int format_decimal(va_list num)
 	if (num == 0)
 	{
 		_write('0');
-		return (dec_chars = 0);
+		return (dec_chars = 1);
 	}
 	if (num < 0)
 	{
 		_write('-');
 		dec_chars += 1;
-		num = num * 1;
+		num = num * -1;
 	}
 	for (; num >= 1; dec_chars++, i++)
 	{
