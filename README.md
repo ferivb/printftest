@@ -1,10 +1,10 @@
-#Project _printf
+# Project _printf
 
-##Synopsis
+## Synopsis
 The **_printf** function prints an output according to the format. This function write its output to the stdout.
 It returns the count of printed characters when the function is successful and -1 when the function fails.
 
-##Usage
+## Usage
 + All the files are to be compiled on Ubuntu 14.04 LTS.
 + You must download all the files contained in this repository in order for this function to work.
 + To use the _printf function, create a file .c and you can use the following example to try.
@@ -12,7 +12,7 @@ It returns the count of printed characters when the function is successful and -
 + Include the "main.h" header file on the functions using the _printf.
 + Compile your code with 'gcc -Wall -Werror -Wextra -pedantic *.c'.
 
-##Format
+## Format
 The _printf function produces an output according to a format.
 
 The available convertion specifiers are:
@@ -22,7 +22,7 @@ The available convertion specifiers are:
 + %i: Prints integers.
 + %%: Prints a single % sing.
 
-##Example
+## Example
 
 ```
 
@@ -54,7 +54,7 @@ int main(void)
 
 ```
 
-##Output
+## Output
 
 ```
 
