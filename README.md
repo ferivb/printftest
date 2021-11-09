@@ -26,31 +26,31 @@ The available convertion specifiers are:
 
 <code>
 
-#include "main.h"
-#include <stdio.h>
-/**
- *main - Prints anything
- *
- *Return: The number of arguments printed.
- */
+	#include "main.h"
+	#include <stdio.h>
+	/**
+ 	*main - Prints anything
+ 	*
+ 	*Return: The number of arguments printed.
+ 	*/
 
-int main(void)
-{
-	int a, b, c;
-	char *string;
+	int main(void)
+	{
+		int a, b, c;
+		char *string;
 
-	a = 10;
-	b = 20;
-	c = -50;
-	string = "Hello world!";
+		a = 10;
+		b = 20;
+		c = -50;
+		string = "Hello world!";
 
-	_printf("This is my string: %s\n", string);
-	_printf("This is a [%d], and this is b [%d]\n", a, b);
-	_printf("This is c %d, and c is negative\n", c);
-	_printf("This is a single Character:[%c]\n", 'J');
+		_printf("This is my string: %s\n", string);
+		_printf("This is a [%d], and this is b [%d]\n", a, b);
+		_printf("This is c %d, and c is negative\n", c);
+		_printf("This is a single Character:[%c]\n", 'J');
 
-	return(0);
-}
+		return(0);
+	}
 
 </code>
 
@@ -58,10 +58,10 @@ int main(void)
 
 <code>
 
-This is my string: Hello world!
-This is a [10], and this is b [20]
-This is c -50, and c is negative
-This is a single Character:[J]
+	This is my string: Hello world!
+	This is a [10], and this is b [20]
+	This is c -50, and c is negative
+	This is a single Character:[J]
 
 </code>
 
