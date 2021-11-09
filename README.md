@@ -1,4 +1,4 @@
-# Project _printf
+# _printf
 
 ## Synopsis
 The **_printf** function prints an output according to the format. This function write its output to the stdout.
