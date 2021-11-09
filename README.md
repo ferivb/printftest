@@ -13,7 +13,7 @@ It returns the count of printed characters when the function is successful and -
 + Compile your code with 'gcc -Wall -Werror -Wextra -pedantic *.c'.
 
 ## Format
-The _printf function produces an output according to a format.
+The **_printf** function produces an output according to a format.
 
 The available convertion specifiers are:
 + %c: Prints a single character.
@@ -72,9 +72,7 @@ You can see more information consulting the **man_printf**, using this command:
 
 * __<a href="https://www.linkedin.com/in/ana-rocha-b98174216/" target="_blank">Ana Maria Rocha</a>__
 
-#### Holberton School 👨‍💻🚀
-
-This project was made for:
+#### This project was made for: Holberton School 👨‍💻🚀
 
 <a href="https://www.holbertonschool.com/">
 <img src="https://thumbs.bfldr.com/at/x9m6pnbbn3cnnbr7kk4pr7mk/v/29396102?expiry=1637084372&fit=bounds&height=800&sig=OGMxNzBjYTgzMzE0YTNhY2YzNzIyYjgxMWJlNmQ5NjIxZjg2ZWI2Nw%3D%3D&width=1100" width=150" height="150" alt="Holberton School"  /></a>
