@@ -24,8 +24,7 @@ The available convertion specifiers are:
 
 ## Example
 
-```
-
+```	
 #include "main.h"
 #include <stdio.h>
 /**
@@ -52,18 +51,18 @@ int main(void)
 	return(0);
 }
 
-```
+```	
 
 ## Output
 
-```
+```	
 
 This is my string: Hello world!
 This is a [10], and this is b [20]
 This is c -50, and c is negative
 This is a single Character:[J]
 
-```
+```	
 
 You can see more information consulting the **man_printf**, using this command:
 **man ./man_printf**
