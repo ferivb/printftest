@@ -66,7 +66,7 @@ The available convertion specifiers are:
 You can see more information consulting the **man_printf**, using this command:
 **man ./man_printf**
 
-### Authors 👨‍💻🖋
+### Authors 👨‍💻✒
 
 * __<a href="https://www.linkedin.com/in/felipe-rivas-833863178/" target="_blank">Felipe Rivas</a>__
 
