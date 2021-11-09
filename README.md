@@ -29,9 +29,9 @@ The available convertion specifiers are:
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Prints anything
+ *main - Prints anything
  *
- * Return: The number of arguments printed.
+ *Return: The number of arguments printed.
  */
 
 int main(void)
