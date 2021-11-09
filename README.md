@@ -70,9 +70,9 @@ You can see more information consulting the **man_printf**, using this command:
 
 ### Authors
 
-* __Felipe Rivas__
+* __<a href="https://www.linkedin.com/in/felipe-rivas-833863178/" target="_blank">Felipe Rivas</a>__
 
-* __Ana Maria Rocha__
+* __<a href="https://www.linkedin.com/in/ana-rocha-b98174216/" target="_blank">Ana Maria Rocha</a>__
 
 #### Holberton School 👨‍💻🚀
 
