@@ -18,9 +18,9 @@ The **_printf** function produces an output according to a format.
 The available convertion specifiers are:
 + %c: Prints a single character.
 + %s: Prints a string of characters.
-+ %d: Prints integers.
++ %d: Prints base 10.
 + %i: Prints integers.
-+ %%: Prints a single % sing.
++ %%: Prints a single %.
 
 ## Example
 
