@@ -79,5 +79,5 @@ You can see more information consulting the **man_printf**, using this command:
 This project was made for:
 
 <a href="https://www.holbertonschool.com/">
-<img src="https://thumbs.bfldr.com/at/x9m6pnbbn3cnnbr7kk4pr7mk/v/29396102?expiry=1637084372&fit=bounds&height=800&sig=OGMxNzBjYTgzMzE0YTNhY2YzNzIyYjgxMWJlNmQ5NjIxZjg2ZWI2Nw%3D%3D&width=1100" alt="Holberton School"  /></a>
+<img src="https://thumbs.bfldr.com/at/x9m6pnbbn3cnnbr7kk4pr7mk/v/29396102?expiry=1637084372&fit=bounds&height=800&sig=OGMxNzBjYTgzMzE0YTNhY2YzNzIyYjgxMWJlNmQ5NjIxZjg2ZWI2Nw%3D%3D&width=1100" width=150" height="70" alt="Holberton School"  /></a>
 
